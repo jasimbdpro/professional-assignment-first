@@ -21,6 +21,37 @@ p {
     margin-left: 40px;
     margin-bottom: 40px;
     margin-right: 40px;
+    max-width: 1200px;
+}
+
+.three {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mission2 {
+    max-width: 1200px;
+}
+
+footer {
+    max-width: 1200px;
+    background-color: #111111;
+}
+
+footer h1 {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
 }
 
 #firstline {
@@ -37,20 +68,26 @@ p {
 }
 
 .F-part {
-    width: 50vmax;
+    width: 50%;
 }
 
 #myphoto {
     max-width: 70%;
-    height: auto;
-    padding-top: 30px;
+    margin: 0 auto 0;
+    display: block;
+}
+
+.illustration {
+    width: 60%;
+    margin: 20px auto 10px;
+    display: block;
 }
 
 .button {
     text-decoration: none;
     background-color: #FF5959;
     color: white;
-    padding: 7px 20px;
+    padding: 2% 20%;
     border-radius: 5px;
     font-family: 'Poppin', sans-serif;
     font-weight: 500;
@@ -60,7 +97,7 @@ p {
     width: 30%;
     padding: 0 10px 0 20px;
     border-radius: 40px;
-    margin: 0 10px 00;
+    margin: 0 0 0 10px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
@@ -85,12 +122,8 @@ p {
     color: #13103A;
 }
 
-.illustration {
-    width: 60%;
-    margin: 20px auto 10px;
-    display: block;
 
-}
+
 
 .headline {
     font-family: 'Poppins', sans-serif;
@@ -99,10 +132,11 @@ p {
 }
 
 .procode {
-    width: 50%;
+    width: 47%;
     padding-left: 20px;
 }
 
 .textt {
     padding-left: 20px;
+    box-sizing: border-box;
 }
