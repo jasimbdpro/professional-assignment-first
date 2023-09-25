@@ -2,6 +2,11 @@
 font-family: 'Manrope', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Yeseva One', cursive; */
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 #small {
     display: inline-block;
     margin: 10px 0;
@@ -26,8 +31,19 @@ p {
 
 .three {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    max-width: 1200px;
+    box-sizing: border-box;
 }
+
+.new5 {
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 .mission2 {
     max-width: 1200px;
@@ -71,10 +87,14 @@ footer p {
     width: 50%;
 }
 
+.flex1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
 #myphoto {
-    max-width: 70%;
-    margin: 0 auto 0;
-    display: block;
+    max-width: 100%;
+    align-self: center;
 }
 
 .illustration {
@@ -122,8 +142,39 @@ footer p {
     color: #13103A;
 }
 
+.galleryhead {
+    font-family: 'Poppoins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #13103A;
+    max-width: 1200px;
 
+}
 
+.imagegallery {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    display: flex;
+    margin-bottom: 80px;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
+.image {
+    width: calc(100%/3);
+    background-color: pink;
+    padding: 0 0 0 40px;
+    margin: 0 0 0 10px;
+    box-sizing: border-box;
+    border-radius: 60px;
+    box-shadow: 2px 2px 5px #5555556e;
+}
+
+.image img {
+    width: 100%;
+}
 
 .headline {
     font-family: 'Poppins', sans-serif;
