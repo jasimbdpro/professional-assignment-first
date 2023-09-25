@@ -2,3 +2,19 @@
 font-family: 'Manrope', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Yeseva One', cursive; */
+.sect2 {
+    display: flex;
+}
+
+#firstline {
+    color: #333333;
+    font-family: 'Yeseva One' cursive;
+    font-size: 3em;
+    display: inline-block;
+    padding: 0 0 0 10px;
+    border-left: 5px solid #FF5959;
+}
+
+#MS24 {
+    color: #FFAD5A;
+}
